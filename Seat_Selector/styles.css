@@ -54,7 +54,7 @@
     background-color: rgb(14, 148, 215);
   }
 
-  .seat.occupied {
+  .seat.booked {
     background-color: grey;
   }
 
@@ -66,12 +66,12 @@
     margin-left: 18px;
   }
 
-  .seat:not(.occupied):hover {
+  .seat:not(.booked):hover {
     cursor: pointer;
     transform: scale(1.2);
   }
 
-  .showcase .seat:not(.occupied):hover {
+  .showcase .seat:not(.booked):hover {
     cursor: default;
     transform: scale(1);
   }
