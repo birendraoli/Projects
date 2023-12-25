@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(36, 36, 36);
+    font-size: 1.2rem;
+}
+
+.color-switcher {
+    color: white;
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button {
+    padding: 5px;
+    width: 15%;
+    margin: auto;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#grey{
+    background-color: grey;
+}
+#black{
+    background-color: black;
+}
+#purple{
+    background-color: purple;
+}

@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(39, 40, 40);
+    color: white;
+    text-align: center;
+}
+
+.input-item {
+    margin: 0 0 10px;
+}
+
+.input-sec {
+    margin-bottom: 20px;
+}
+
+.output-sec {
+    margin-bottom: 20px;
+}
